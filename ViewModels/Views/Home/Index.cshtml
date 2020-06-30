@@ -1,0 +1,31 @@
+﻿@model ViewModels.ViewModels.ViewModelStudentAddress
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Students</title>
+    </head>
+    <body>
+        <h1>List of students</h1>
+        <div>
+            Id: @Model.Student.StudentId
+        </div>
+        <div>
+            Name: @Model.Student.Name
+        </div>
+        <div>
+            Branch: @Model.Student.Branch
+        </div>
+        <div>
+            Section: @Model.Student.Section
+        </div>
+        <div>
+            Gender: @Model.Student.Gender
+        </div>
+        <div>
+            Course: @Model.Title @Model.Schoolname
+        </div>
+        <div>
+            Address: @Model.Address.Street in @Model.Address.City (@Model.Address.Country)
+        </div>
+    </body>
+    </html>
